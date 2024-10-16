@@ -2,3 +2,9 @@
 
 Situation -
 
+Task -
+
+Action -
+
+Result -
+
