@@ -1,5 +1,5 @@
 
-## Estimation of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
+## Classification of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
 
 ### Project Overview
 
