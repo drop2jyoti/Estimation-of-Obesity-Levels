@@ -23,6 +23,7 @@ Dataset
 
 The dataset "Estimation of Obesity Levels Based On Eating Habits and Physical Condition “ contains 16 features and 2111 observations. The dataset contains information on individuals from Peru, Mexico and Columbia.
 The key variables (features) in this dataset, based on feature importance and relevance to the problem of obesity, are:
+
 •	Gender
 
 •	Age:  A person's age may affect their metabolic rate and lifestyle, influencing obesity levels.
@@ -59,7 +60,9 @@ Libraries and Frameworks
 
 Numpy, scikitlearn, pandas, matplotlib
 
+
 Key Observations
+
 
 
 Results
