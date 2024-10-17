@@ -1,7 +1,7 @@
 
-Estimation of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
+##Estimation of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
 
-Project Overview
+#Project Overview
 
 Our aim in this project is to create a model based on physical characteristics (such as age, gender, height and weight) and lifestyle habits (e.g. eating patterns, exercise, 
 smoking, and water intake) that can help predict obesity levels. To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition”.   
