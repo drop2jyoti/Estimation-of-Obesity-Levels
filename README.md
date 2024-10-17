@@ -9,13 +9,18 @@ smoking, and water intake) that can help predict obesity levels. To do so we ana
 
 ### Potential Uses and Applications
 
-For Public Health Officials: By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
-For Medical Professional:  The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could  aid in identifying at risk individuals who could  then be offered interventions and support.  
+##### For Public Health Officials: 
+By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
+
+##### For Medical Professional:  
+The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could  aid in identifying at risk individuals who could  then be offered interventions and support.  
 
 ### Analysis Goals
 
 Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity : To create public awareness and highlight the key factors influencing obesity, we can use feature importance analysis. 
-Analyzing the Impact of Family History and Habits: This dataset includes features such as family history of overweight and consumption patterns, which could be analyzed to study their impact on 
+
+Analyzing the Impact of Family History and Habits: This dataset includes features such as family history of overweight and consumption patterns, which could be analyzed to study their impact on obesity levels.
+
 Predicting user engagement with technological devices:  Technology usage(e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age group. 
 
 
