@@ -25,9 +25,13 @@ Dataset
 The dataset "Estimation of Obesity Levels Based On Eating Habits and Physical Condition “ contains 16 features and 2111 observations. The dataset contains information on individuals from Peru, Mexico and Columbia.
 The key variables (features) in this dataset, based on feature importance and relevance to the problem of obesity, are:
 •	Gender
+
 •	Age:  A person's age may affect their metabolic rate and lifestyle, influencing obesity levels.
+
 •	Height: Useful for calculating Body Mass Index (BMI), which is closely related to obesity.
+
 •	Weight: One of the most critical variables for determining obesity.
+
 •	Family History with Overweight: Whether a person has a genetic predisposition to being overweight or obese, which can significantly impact obesity risk.
 •	Frequent Consumption of High-Calorie Food (FAVC): This reflects dietary habits, particularly the consumption of high-calorie foods, which is a known risk factor for obesity.
 •	Frequency of Consumption of Vegetables (FCVC): A higher intake of vegetables is typically associated with a healthier diet and lower risk of obesity.
