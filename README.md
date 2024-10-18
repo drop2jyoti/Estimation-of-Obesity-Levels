@@ -1,19 +1,21 @@
 
-## Estimation of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
+## Classification of Obesity Levels Based on Eating Habits and Physical Condition Using Data Analysis
 
 ### Project Overview
 
 Our aim in this project is to create a model based on physical characteristics (such as age, gender, height and weight) and lifestyle habits (e.g. eating patterns, exercise, 
-smoking, and water intake) that can help predict obesity levels. To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition”.   
+smoking, and water intake) that can help predict obesity levels. To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
 
 
 ### Potential Uses and Applications
 
-##### For Public Health Officials: 
+##### 1. Public Health Organizations: 
 By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
 
-##### For Medical Professional:  
-The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could  aid in identifying at risk individuals who could  then be offered interventions and support.  
+##### 2. Health Care Providers and Practitioners:  
+The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could aid in identifying at risk individuals who could  then be offered interventions and support.  
+
+##### 3. Insurance Companies
 
 ### Analysis Goals
 
@@ -62,13 +64,13 @@ The key variables (features) in this dataset, based on feature importance and re
 
 •	Transportation Mode (MTRANS): The mode of transportation, such as walking or using public transportation, reflects levels of physical activity in daily life.
 
-•	Outcome variable: categorized as Normal weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III.
+•	Outcome variable (NOBeyesdad): Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 
 
 ### Libraries and Frameworks
 
 Numpy, scikitlearn, pandas, matplotlib
 
-### Tasks
+### Tasks/Methods
 
 ### Key Observations
 
@@ -76,5 +78,6 @@ Numpy, scikitlearn, pandas, matplotlib
 
 ### Results
 
+### Future Scope and Next Steps
 
 
