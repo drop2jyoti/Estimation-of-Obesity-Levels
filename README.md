@@ -22,13 +22,13 @@ The analysis can help in designing custom insurance policies or health premiums 
 
 ### Analysis Goals
 
-#### Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity : 
+- #### Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity : 
 To create public awareness and highlight the key factors influencing obesity, we can use feature importance analysis. 
 
-#### Analyzing the Impact of Family History and Habits: 
+- #### Analyzing the Impact of Family History and Habits: 
 This dataset includes features such as family history of overweight and consumption patterns, which could be analyzed to study their impact on obesity levels.
 
-#### Predicting user engagement with technological devices:  
+- #### Predicting user engagement with technological devices:  
 Determine how technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age group. 
 
 
