@@ -3,8 +3,8 @@
 
 ### Project Overview
 
-Our aim in this project is to create a model based on physical characteristics (such as age, gender, height and weight) and lifestyle habits (e.g. eating patterns, exercise, 
-smoking, and water intake) that can help predict obesity levels. To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
+Our aim in this project is to create a machine-learning model based on demographic features (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, 
+smoking, and water intake) for predicting obesity levels. To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
 
 
 ### Potential Uses and Applications
