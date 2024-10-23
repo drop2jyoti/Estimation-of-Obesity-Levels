@@ -3,6 +3,7 @@
 The dataset "Estimation of Obesity Levels Based On Eating Habits and Physical Condition “ contains 16 features and 2111 observations. The dataset contains information on individuals from Peru, Mexico and Columbia.
 
 Dataset Link: https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
+
 The key variables (features) in this dataset, based on feature importance and relevance to the problem of obesity, are:
 
 •	Gender
