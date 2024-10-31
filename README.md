@@ -35,7 +35,17 @@ This project will perform by using Python. For the library list please see the '
 
 ## Methodology
 
-In this project, our goal is to predict obesity levels based on various factors using a dataset from UCI. The target variable, **`NObeyesdad`**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. Below is the methodology we followed.
+In this project, our goal is to predict obesity levels based on various factors using a dataset from UCI. The target variable, **`NObeyesdad`**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
+
+- **Insufficient Weight**
+- **Normal Weight**
+- **Overweight Level I**
+- **Overweight Level II**
+- **Obesity Type I**
+- **Obesity Type II**
+- **Obesity Type III**
+
+Below is the methodology we followed.
 
 
 ### 1. **Exploratory Data Analysis (EDA)**
