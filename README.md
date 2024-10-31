@@ -91,7 +91,7 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 
 #### Group Members
 - **Jyoti**
-- **Arzoo**
+- **Arezoo**
 - **Zekiye**
 - **Kathryn**
 
@@ -99,32 +99,32 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 
 ##### 1. **Exploratory Data Analysis (EDA)**
    - **Lead:** Jyoti
-   - **Support:** Arzoo
+   - **Support:** Arezoo
    - Tasks: Examine class and age distributions, identify outliers, explore missing values, and analyze correlations.
 
 ##### 2. **Data Cleaning**
-   - **Lead:** Arzoo
+   - **Lead:** Arezoo
    - **Support:** Zekiye
    - Tasks: Remove duplicates, handle outliers, and manage missing values as necessary.
 
 ##### 3. **One-Hot Encoding for Categorical Variables**
-   - **Lead:** Zekiye
+   - **Lead:** Kathryn
    - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
 
 ##### 4. **Machine Learning Modeling**
-   - **Lead:** Kathryn
+   - **Lead:** Zekiye
    - **Support:** Jyoti
    - Tasks: Implement Decision Tree, Random Forest, Logistic Regression, and Naive Bayes models. Evaluate and compare models on metrics (accuracy, precision, recall, F1 score, log loss).
 
 ##### 5. **Feature Engineering**
    - **Lead:** Zekiye
-   - **Support:** Arzoo
-   - Tasks: Use Random Forest for feature importance assessment, analyze correlation matrix to remove redundant features.
+   - **Support:** Arezoo
+   - Tasks: Use Random Forest for feature importance assessment, and analyze correlation matrix to remove redundant features.
 
 ##### 6. **Feature Elimination and Model Comparison**
    - **Lead:** Jyoti
    - **Support:** Kathryn
-   - Tasks: Perform feature elimination, compare model performance with a reduced feature set vs. the baseline model.
+   - Tasks: Perform feature elimination, and compare model performance with a reduced feature set vs. the baseline model.
 
 ##### 7. **Findings and Conclusion**
    - **Lead:** Kathryn
