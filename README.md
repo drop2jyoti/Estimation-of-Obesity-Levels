@@ -47,6 +47,8 @@ In this project, our goal is to predict obesity levels based on various factors 
 
 Below is the methodology we followed.
 
+### Dataset Information
+This dataset is **synthetic**, and all classes are balanced, so class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
 
 ### 1. **Exploratory Data Analysis (EDA)**
    - Examine **class distribution** and **age distribution**.
