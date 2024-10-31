@@ -85,7 +85,52 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 ### 7. **Findings and Conclusion**
    - Summarize key findings from **EDA** and **ML analysis**.
    - Draw conclusions on the influence of various features in predicting obesity levels.
-### Workload Distribution
+
+## Workload Distribution
+
+
+#### Group Members
+- **Jyoti**
+- **Arzoo**
+- **Zekiye**
+- **Kathryn**
+
+#### Task Allocation
+
+##### 1. **Exploratory Data Analysis (EDA)**
+   - **Lead:** Jyoti
+   - **Support:** Arzoo
+   - Tasks: Examine class and age distributions, identify outliers, explore missing values, and analyze correlations.
+
+##### 2. **Data Cleaning**
+   - **Lead:** Arzoo
+   - **Support:** Zekiye
+   - Tasks: Remove duplicates, handle outliers, and manage missing values as necessary.
+
+##### 3. **One-Hot Encoding for Categorical Variables**
+   - **Lead:** Zekiye
+   - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
+
+##### 4. **Machine Learning Modeling**
+   - **Lead:** Kathryn
+   - **Support:** Jyoti
+   - Tasks: Implement Decision Tree, Random Forest, Logistic Regression, and Naive Bayes models. Evaluate and compare models on metrics (accuracy, precision, recall, F1 score, log loss).
+
+##### 5. **Feature Engineering**
+   - **Lead:** Zekiye
+   - **Support:** Arzoo
+   - Tasks: Use Random Forest for feature importance assessment, analyze correlation matrix to remove redundant features.
+
+##### 6. **Feature Elimination and Model Comparison**
+   - **Lead:** Jyoti
+   - **Support:** Kathryn
+   - Tasks: Perform feature elimination, compare model performance with a reduced feature set vs. the baseline model.
+
+##### 7. **Findings and Conclusion**
+   - **Lead:** Kathryn
+   - **Support:** All Members
+   - Tasks: Summarize key findings, draw conclusions, and compile the final report.
+
 
 ### Key Observations
 
