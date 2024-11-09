@@ -14,12 +14,20 @@ data.drop_duplicates(inplace=True)
 if data.isnull().sum().any():
     data.dropna(inplace=True)
 
+# Check for duplicate columns
+duplicate_columns = data.columns[data.columns.duplicated()]
+if duplicate_columns.any():
+    data.drop(columns=duplicate_columns, inplace=True)
+
 # Encode categorical columns if necessary
 label_encoders = {}
 for column in data.select_dtypes(include=['object']).columns:
     le = LabelEncoder()
     data[column] = le.fit_transform(data[column])
     label_encoders[column] = le
+
+# Display the first few rows of the dataset
+print(data.head())
 
 # Separate features and target
 X = data.drop('NObeyesdad', axis=1)  # Assuming 'NObeyesdad' is the target column
@@ -55,6 +63,18 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 # Save label encoders for reference
 for column, le in label_encoders.items():
     print(f"Encoding for {column}: {dict(zip(le.classes_, le.transform(le.classes_)))}")
+
+# Save the model
+import joblib
+
+joblib.dump(model, "obesity_decision_tree_model.pkl")
+
+# Save the label encoders
+joblib.dump(label_encoders, "label_encoders.pkl")
+
+# Load the model and label encoders
+model = joblib.load("obesity_decision_tree_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 # Function to get input from the user and predict
 def predict_obesity():
