@@ -14,12 +14,38 @@ data.drop_duplicates(inplace=True)
 if data.isnull().sum().any():
     data.dropna(inplace=True)
 
+# Check for duplicate columns
+duplicate_columns = data.columns[data.columns.duplicated()]
+if duplicate_columns.any():
+    data.drop(columns=duplicate_columns, inplace=True)
+
 # Encode categorical columns if necessary
 label_encoders = {}
 for column in data.select_dtypes(include=['object']).columns:
     le = LabelEncoder()
     data[column] = le.fit_transform(data[column])
     label_encoders[column] = le
+
+# Display the first few rows of the dataset
+print(data.head())
+
+# Plot the distribution of the target column
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(8, 6))
+sns.countplot(data['NObeyesdad'])
+plt.title('Distribution of Obesity Classes')
+plt.show()
+
+# Calculate the correlation matrix
+correlation_matrix = data.corr()
+
+# Plot the heatmap
+plt.figure(figsize=(12, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+plt.title('Correlation Matrix')
+plt.show()
 
 # Separate features and target
 X = data.drop('NObeyesdad', axis=1)  # Assuming 'NObeyesdad' is the target column
@@ -45,6 +71,7 @@ recall = recall_score(y_test, y_pred, average='weighted')
 f1 = f1_score(y_test, y_pred, average='weighted')
 logloss = log_loss(y_test, y_pred_proba)
 
+# Display the evaluation metrics
 print(f"Accuracy: {accuracy:.2f}")
 print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
@@ -79,6 +106,20 @@ def predict_obesity():
     # Convert prediction back to original label if necessary
     predicted_label = label_encoders['NObeyesdad'].inverse_transform([prediction])[0]
     print(f"\nPredicted Obesity Classification: {predicted_label}")
+
+# Call the prediction function
+predict_obesity()
+
+# Save the model
+import joblib
+joblib.dump(model, "obesity_logistic_regression_model.pkl")
+
+# Save the label encoders
+joblib.dump(label_encoders, "label_encoders.pkl")
+
+# Load the model and label encoders
+model = joblib.load("obesity_logistic_regression_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 # Call the prediction function
 predict_obesity()
