@@ -26,3 +26,7 @@ def find_outliers_IQR(df,numeric_col):
    IQR=q3-q1
    outliers = df[((df[numeric_col]<(q1-1.5*IQR)) | (df[numeric_col]>(q3+1.5*IQR)))]
    return outliers
+
+def export_csv(df, fileName):
+    '''Export pandas data frame into csv'''
+    return df.to_csv(fileName, index=False)
