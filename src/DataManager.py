@@ -30,3 +30,9 @@ def find_outliers_IQR(df,numeric_col):
 def export_csv(df, fileName):
     '''Export pandas data frame into csv'''
     return df.to_csv(fileName, index=False)
+
+
+def generate_clean_data(df):
+    '''Remove duplicates from pandas data frame and return new data frame without duplicates'''
+    df_clean = drop_duplicates(df)
+    return df_clean
