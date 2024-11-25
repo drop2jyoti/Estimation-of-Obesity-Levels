@@ -141,4 +141,6 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 ### Team members 
 [**`Arezoo khalili`**](https://github.com/Arezookhalili), [**Claire E**](https://github.com/ClaireEun), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
+### Project 
+https://github.com/users/drop2jyoti/projects/2
 
