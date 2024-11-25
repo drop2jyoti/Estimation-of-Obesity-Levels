@@ -97,21 +97,21 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 
 #### Task Allocation
 
-#### 1. **Exploratory Data Analysis (EDA)**
+#### 1. **Exploratory Data Analysis (EDA)** - Done
    - **Lead:** Jyoti
    - **Support:** Arezoo
    - Tasks: Examine class and age distributions, identify outliers, explore missing values, and analyze correlations.
 
-#### 2. **Data Cleaning**
+#### 2. **Data Cleaning** - Done
    - **Lead:** Arezoo
    - **Support:** Zekiye
    - Tasks: Remove duplicates, handle outliers, and manage missing values as necessary.
 
-#### 3. **One-Hot Encoding for Categorical Variables**
+#### 3. **One-Hot Encoding for Categorical Variables** - Done
    - **Lead:** Kathryn
    - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
 
-#### 4. **Machine Learning Modeling**
+#### 4. **Machine Learning Modeling** - In progress
    - **Lead:** Zekiye
    - **Support:** Jyoti
    - Tasks: Implement Decision Tree, Random Forest, Logistic Regression, and Naive Bayes models. Evaluate and compare models on metrics (accuracy, precision, recall, F1 score, log loss).
