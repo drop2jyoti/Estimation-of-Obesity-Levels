@@ -111,7 +111,7 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
    - **Lead:** Kathryn
    - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
 
-#### 4. **Machine Learning Modeling** - In progress
+#### 4. **Machine Learning Modeling** - Done
    - **Lead:** Zekiye
    - **Support:** Jyoti
    - Tasks: Implement Decision Tree, Random Forest, Logistic Regression, and Naive Bayes models. Evaluate and compare models on metrics (accuracy, precision, recall, F1 score, log loss).
