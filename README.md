@@ -69,13 +69,13 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
    - Implement multiple classification algorithms:
      - **Decision Tree**
      - **Random Forest**
-     - **Logistic Regression**
-     - **Naive Bayes**
+     - **kNN**
+     - **XGBoost**
    - Evaluate each model using metrics like **accuracy**, **precision**, **recall**, **F1 score**, and **log loss**.
    - **Compare model performances** to select the best-performing model.
 
 ### 5. **Feature Engineering**
-   - Use **Random Forest** to assess **feature importance**.
+   - Use **Random Forest** or **SHAP** to assess the **feature importance**.
    - Utilize **correlation matrix** insights to eliminate redundant features.
 
 ### 6. **Feature Elimination and Model Comparison**
@@ -97,21 +97,21 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 
 #### Task Allocation
 
-#### 1. **Exploratory Data Analysis (EDA)**
+#### 1. **Exploratory Data Analysis (EDA)** - Done
    - **Lead:** Jyoti
    - **Support:** Arezoo
    - Tasks: Examine class and age distributions, identify outliers, explore missing values, and analyze correlations.
 
-#### 2. **Data Cleaning**
+#### 2. **Data Cleaning** - Done
    - **Lead:** Arezoo
    - **Support:** Zekiye
    - Tasks: Remove duplicates, handle outliers, and manage missing values as necessary.
 
-#### 3. **One-Hot Encoding for Categorical Variables**
+#### 3. **One-Hot Encoding for Categorical Variables** - Done
    - **Lead:** Kathryn
    - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
 
-#### 4. **Machine Learning Modeling**
+#### 4. **Machine Learning Modeling** - Done
    - **Lead:** Zekiye
    - **Support:** Jyoti
    - Tasks: Implement Decision Tree, Random Forest, Logistic Regression, and Naive Bayes models. Evaluate and compare models on metrics (accuracy, precision, recall, F1 score, log loss).
@@ -119,7 +119,7 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 #### 5. **Feature Engineering**
    - **Lead:** Zekiye
    - **Support:** Arezoo
-   - Tasks: Use Random Forest for feature importance assessment, and analyze correlation matrix to remove redundant features.
+   - Tasks: Use Random Forest or SHAP for feature importance assessment, and analyze correlation matrix to remove redundant features.
 
 #### 6. **Feature Elimination and Model Comparison**
    - **Lead:** Jyoti
@@ -139,6 +139,8 @@ This dataset is **synthetic**, and all classes are balanced, so class imbalance 
 ### Future Scope and Next Steps
 
 ### Team members 
-[**`Arezoo khalili`**](https://github.com/Arezookhalili), [**Claire E**](https://github.com/ClaireEun), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
+[**`Arezoo khalili`**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
+### Project 
+https://github.com/users/drop2jyoti/projects/2
 
