@@ -6,6 +6,7 @@ def grid_search_cv_eval(X,Y, models, param_grid, scorings,cross_validation):
 
     best_models = {}
     result = {}
+    print(models)
     for model in models:
         print(result)
         print(f"\nRunning GridSearch for {model}...")
@@ -25,4 +26,4 @@ def grid_search_cv_eval(X,Y, models, param_grid, scorings,cross_validation):
         print(f'Best recall: {gsv.cv_results_["mean_test_recall"][best_index]:.4f}')
         result[model] = {"parameter":gsv.best_params_,"accuracy":gsv.cv_results_["mean_test_accuracy"][best_index], "precision": gsv.cv_results_["mean_test_precision"][best_index],"recall": gsv.cv_results_["mean_test_recall"][best_index]}
 
-        return best_models, result
+    return best_models, result
