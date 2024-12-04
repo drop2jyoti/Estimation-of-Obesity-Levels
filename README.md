@@ -73,25 +73,25 @@ The following can be found in the **Notebooks** folder.
 
 ### In Obesity_estimation_eda.ipynb: 
 
-### 1. **Exploratory Data Analysis (EDA)**  
+#### 1. **Exploratory Data Analysis (EDA)**  
    - Examination of  **class distribution** and **age distribution**.
    - Identification of **outliers** and  **missing values**.
    - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**.
    - Analysis of **correlations** between variables.
 
-### 2. **Data Cleaning**  
+#### 2. **Data Cleaning**  
    - Before modeling, we performed the following data cleaning steps:
      - **Removal of duplicates**.
      - **Handling of outliers**.
      - Checking for missing values.
 
-### 3. **One-Hot Encoding for Categorical Variables** 
+#### 3. **One-Hot Encoding for Categorical Variables** 
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
 
 ### In Obesity_estimation_feature_eng_ML.ipynb:
 
-### 4. **Machine Learning Modeling**  
+#### 4. **Machine Learning Modeling**  
    - Implementation of multiple classification algorithms:
      - **Decision Tree**
      - **Random Forest**
@@ -100,15 +100,15 @@ The following can be found in the **Notebooks** folder.
    - Evaluation of each model using the following metrics: **accuracy**, **precision**, **recall**, and **F1 score**
    - **Comparison of model performances** to select the best-performing model using **GridSearch**.
 
-### 5. **Feature Engineering**
+#### 5. **Feature Engineering**
    - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
    - Utilizatiion of  **correlation matrix** insight to eliminate redundant features.
 
-### 6. **Feature Elimination and Model Comparison** 
+#### 6. **Feature Elimination and Model Comparison** 
    - Reduction of the feature set based on **feature importance** and **correlations**.
    - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
-### 7. **Findings and Conclusion**  
+#### 7. **Findings and Conclusion**  
    - Summarization of key findings from **EDA** and **ML analysis**.
    - Determine the influence of various features in predicting obesity levels.
    - Reccomendations for future research.
