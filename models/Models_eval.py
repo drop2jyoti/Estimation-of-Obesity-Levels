@@ -27,3 +27,31 @@ def grid_search_cv_eval(X,Y, models, param_grid, scorings,cross_validation):
         result[model] = {"parameter":gsv.best_params_,"accuracy":gsv.cv_results_["mean_test_accuracy"][best_index], "precision": gsv.cv_results_["mean_test_precision"][best_index],"recall": gsv.cv_results_["mean_test_recall"][best_index]}
 
     return best_models, result
+
+
+from sklearn.model_selection import cross_val_score
+
+# Define the function to compare models with default parameters
+def evaluate_models(X, Y, models, scorings, cross_validation):
+    result = {}
+    
+    # Loop through models and evaluate each one
+    for model_name, model in models.items():
+        print(f"\nEvaluating {model_name}...")
+        
+        # Evaluate using the defined scoring metrics
+        model_scores = {}
+        for score_name, scorer in scorings.items():
+            score = cross_val_score(model, X, Y, cv=cross_validation, scoring=scorer)
+            model_scores[score_name] = score.mean()
+        
+        # Store results
+        result[model_name] = model_scores
+        
+        # Print the results
+        print(f"Accuracy: {model_scores['accuracy']:.4f}")
+        print(f"Precision: {model_scores['precision']:.4f}")
+        print(f"Recall: {model_scores['recall']:.4f}")
+        print(f"F1 Score: {model_scores['f1']:.4f}")
+    
+    return result
