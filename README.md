@@ -46,14 +46,14 @@ In this project, our goal is to predict obesity levels based on various factors 
 - **Class 5: Obesity Type II**
 - **Class 6: Obesity Type III**
 
-There are 16 features in the data set, which have been renmaed for readability. The features include the following :
+There are 16 features in the data set, which have been renamed for readability:
 
       - Gender                 
       - Age                       
       - Height                      
       - Weight                       
       - Family_History   (whether there is family history of obesity)          
-      - High_Cal_Foods_Frequently  (does the individual consume high calorie foods frequently)  
+      - High_Cal_Foods_Frequently   (frequency of consumption of high calorie foods)  
       - Freq_Veg  (number of servings of vegetables per day)              
       - Num_Meals (number of main meals consumed per day)           
       - Snacking  (frequency of snacking)            
@@ -83,11 +83,11 @@ The following can be found in the **Notebooks** folder.
      - **Handling of outliers**.
      - Checking for missing values.
 
-### 3. **One-Hot Encoding for Categorical Variables** -see Obesity_estimation_eda.ipynb 
+### 3. **One-Hot Encoding for Categorical Variables** - see Obesity_estimation_eda.ipynb 
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
 
-### 4. **Machine Learning Modeling**
+### 4. **Machine Learning Modeling** - see Obesity_estimation_feature_eng_ML.ipynb
    - Implementation of multiple classification algorithms:
      - **Decision Tree**
      - **Random Forest**
@@ -96,15 +96,15 @@ The following can be found in the **Notebooks** folder.
    - Evaluatation each model using metrics like **accuracy**, **precision**, **recall**, **F1 score**, and **log loss**.
    - **Compare model performances** to select the best-performing model using GridSearch.
 
-### 5. **Feature Engineering**
+### 5. **Feature Engineering** - Obesity_estimation_feature_eng_ML.ipynb
    - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
    - Utilizatiion of  **correlation matrix** insight to eliminate redundant features.
 
-### 6. **Feature Elimination and Model Comparison**
+### 6. **Feature Elimination and Model Comparison** - Obesity_estimation_feature_eng_ML.ipynb
    - Reduction of the feature set based on **feature importance** and **correlations**.
    - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
-### 7. **Findings and Conclusion**
+### 7. **Findings and Conclusion** - Obesity_estimation_feature_eng_ML.ipynb 
    - Summarization of key findings from **EDA** and **ML analysis**.
    - Determine the influence of various features in predicting obesity levels.
    - Reccomendations for future research.
