@@ -159,11 +159,6 @@ XGBoost is the most robust and reliable model for this dataset. It should be con
 ### Project 
 https://github.com/users/drop2jyoti/projects/2
 
-#### Group Members
-- **Jyoti**
-- **Arezoo**
-- **Zekiye**
-- **Kathryn**
 
 #### Task Allocation
 
