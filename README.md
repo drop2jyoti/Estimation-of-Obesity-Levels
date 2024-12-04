@@ -71,7 +71,7 @@ There are 16 features in the data set, which have been renamed for readability:
 
 The following can be found in the **Notebooks** folder.
 
-## In Obesity_estimation_eda.ipynb: 
+### In Notebooks/Obesity_estimation_eda.ipynb: 
 
 ### 1. **Exploratory Data Analysis (EDA)**  
    - Examination of  **class distribution** and **age distribution**.
@@ -89,7 +89,7 @@ The following can be found in the **Notebooks** folder.
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
 
-## In Obesity_estimation_feature_eng_ML.ipynb:
+### In Notebooks/Obesity_estimation_feature_eng_ML.ipynb:
 
 ### 4. **Machine Learning Modeling**  
    - Implementation of multiple classification algorithms:
