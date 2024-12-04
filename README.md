@@ -142,7 +142,7 @@ Therefore these are the features of primary importance when assessing an indivua
 The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as _EWH.
 
 
-![image.png](attachment:image.png)
+![Model Comparison Table](reports/image1.png)
 
  
 
