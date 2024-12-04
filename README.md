@@ -71,7 +71,7 @@ There are 16 features in the data set, which have been renamed for readability:
 
 The following can be found in the **Notebooks** folder.
 
-### In Notebooks/Obesity_estimation_eda.ipynb: 
+### In Obesity_estimation_eda.ipynb: 
 
 ### 1. **Exploratory Data Analysis (EDA)**  
    - Examination of  **class distribution** and **age distribution**.
@@ -79,7 +79,7 @@ The following can be found in the **Notebooks** folder.
    - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**.
    - Analysis of **correlations** between variables.
 
-### 2. **Data Cleaning** b 
+### 2. **Data Cleaning**  
    - Before modeling, we performed the following data cleaning steps:
      - **Removal of duplicates**.
      - **Handling of outliers**.
@@ -89,7 +89,7 @@ The following can be found in the **Notebooks** folder.
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
 
-### In Notebooks/Obesity_estimation_feature_eng_ML.ipynb:
+### In Obesity_estimation_feature_eng_ML.ipynb:
 
 ### 4. **Machine Learning Modeling**  
    - Implementation of multiple classification algorithms:
