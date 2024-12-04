@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-In this project we use machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
+In this project we use machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).  The dataset
 contains 16 features and 2111 observations.  
 
 ## Applications for Results
@@ -71,23 +71,27 @@ There are 16 features in the data set, which have been renamed for readability:
 
 The following can be found in the **Notebooks** folder.
 
-### 1. **Exploratory Data Analysis (EDA)** - see Obesity_estimation_eda.ipynb 
+## In Obesity_estimation_eda.ipynb: 
+
+### 1. **Exploratory Data Analysis (EDA)**  
    - Examination of  **class distribution** and **age distribution**.
    - Identification of **outliers** and  **missing values**.
    - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**.
    - Analysis of **correlations** between variables.
 
-### 2. **Data Cleaning** - see Obesity_estimation_eda.ipynb 
+### 2. **Data Cleaning** b 
    - Before modeling, we performed the following data cleaning steps:
      - **Removal of duplicates**.
      - **Handling of outliers**.
      - Checking for missing values.
 
-### 3. **One-Hot Encoding for Categorical Variables** - see Obesity_estimation_eda.ipynb 
+### 3. **One-Hot Encoding for Categorical Variables** 
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
 
-### 4. **Machine Learning Modeling** - see Obesity_estimation_feature_eng_ML.ipynb
+## In Obesity_estimation_feature_eng_ML.ipynb:
+
+### 4. **Machine Learning Modeling**  
    - Implementation of multiple classification algorithms:
      - **Decision Tree**
      - **Random Forest**
@@ -96,15 +100,15 @@ The following can be found in the **Notebooks** folder.
    - Evaluation of each model using the following metrics: **accuracy**, **precision**, **recall**, and **F1 score**
    - **Comparison of model performances** to select the best-performing model using **GridSearch**.
 
-### 5. **Feature Engineering** - see Obesity_estimation_feature_eng_ML.ipynb
+### 5. **Feature Engineering**
    - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
    - Utilizatiion of  **correlation matrix** insight to eliminate redundant features.
 
-### 6. **Feature Elimination and Model Comparison** - see Obesity_estimation_feature_eng_ML.ipynb
+### 6. **Feature Elimination and Model Comparison** 
    - Reduction of the feature set based on **feature importance** and **correlations**.
    - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
-### 7. **Findings and Conclusion** - see Obesity_estimation_feature_eng_ML.ipynb 
+### 7. **Findings and Conclusion**  
    - Summarization of key findings from **EDA** and **ML analysis**.
    - Determine the influence of various features in predicting obesity levels.
    - Reccomendations for future research.
@@ -116,11 +120,11 @@ The following can be found in the **Notebooks** folder.
 XGBoost was the highest performing model with Random Forest performing slightly behind it. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, a direct measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
 
 The **Confusion matrix** showed the following data were miscateorized by the XGboost model:
-      - 3 individuals with "Normal Weight' were categorized as 'Overweight Level 1"
-      - 1 individual with "Obesity Type 1" was categorized as "Overweight Type 2"
-      - 1 indivifusl with "Obesity Type 3" was categorized as "Obesity Type 2"
+      - 3 individuals with 'Overweight Level 1" were categorized as "Normal Weight'
+      - 1 individual with "Overweight Level 2" was categorized as "Obesity Type 2"
+      - 1 individual with "Obesity Type 3" was categorized as "Obesity Type 2"
 
-The results from the SHAP analysis run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
+The results from the **SHAP** analysis run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
       - Age
       - Frequency of Vegetables (Freq_Veg)
