@@ -36,7 +36,7 @@ This project will be performed using Python. For the library list please see the
 ## Dataset Information
 This dataset is **synthetic**, and all classes are balanced, so class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
 
-In this project, our goal is to predict obesity levels based on various factors using a dataset from UCI. The target variable, **`NObeyesdad`**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
+The target variable, **`NObeyesdad`**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
 
 - **Class 0: Insufficient Weight**
 - **Class 1: Normal Weight**
@@ -96,15 +96,15 @@ The following can be found in the **Notebooks** folder.
    - Evaluatation each model using metrics like **accuracy**, **precision**, **recall**, **F1 score**, and **log loss**.
    - **Compare model performances** to select the best-performing model using GridSearch.
 
-### 5. **Feature Engineering** - Obesity_estimation_feature_eng_ML.ipynb
+### 5. **Feature Engineering** - see Obesity_estimation_feature_eng_ML.ipynb
    - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
    - Utilizatiion of  **correlation matrix** insight to eliminate redundant features.
 
-### 6. **Feature Elimination and Model Comparison** - Obesity_estimation_feature_eng_ML.ipynb
+### 6. **Feature Elimination and Model Comparison** - see Obesity_estimation_feature_eng_ML.ipynb
    - Reduction of the feature set based on **feature importance** and **correlations**.
    - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
-### 7. **Findings and Conclusion** - Obesity_estimation_feature_eng_ML.ipynb 
+### 7. **Findings and Conclusion** - see Obesity_estimation_feature_eng_ML.ipynb 
    - Summarization of key findings from **EDA** and **ML analysis**.
    - Determine the influence of various features in predicting obesity levels.
    - Reccomendations for future research.
@@ -127,11 +127,11 @@ The results from the SHAP analysis run on models excluding 'Height' and 'Weight'
       - Number of Meals (Num_Meals)
       - Family History of Obesity (Yes)
 
-The correlation matrix findings show
+Our analysis shows that these are the features of primary importance when assessing the risk of obesity. 
 
 ### Results
 
-The table below show the performance results of the various models tested. Models run with 'Height' and 'Weight' eliminated are noted as _EWH.
+The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as _EWH.
 
 
 ![image.png](attachment:image.png)
@@ -140,9 +140,9 @@ The table below show the performance results of the various models tested. Model
 
 ### Future Scope and Next Steps
 
-On further model applications ensure the inclusion of key features such as `Weight`, `Height`, `Age`, and `Freq_Veg`. Avoid removing these features unless computational or data collection constraints require it. XGBoost is the most robust and reliable model for this dataset when using all features. It should be considered as the primary model for deployment or further analysis.
+XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. On future model applications ensure the inclusion of key features such as `Weight`, `Height`, `Age`, and `Freq_Veg`. Avoid removing these features unless computational or data collection constraints require it. 
 
-Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions.
+
 
 
 ### Team members 
