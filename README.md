@@ -6,9 +6,9 @@
 In this project we use machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  "Estimation of Obesity Levels Based On Eating Habits and Physical Condition” (https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
 contains 16 features and 2111 observations.  
 
-## Potential Business Cases in Different Areas
+## Applications for Results
 
-The results of this project could assist various organizations in enhancing their decision-making processes. We have provided a concise summary of key organizations and their potential applications.
+The results of this project could assist various organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications.
 
 ### 1. Public Health Organizations: 
 By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
