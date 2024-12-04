@@ -67,14 +67,14 @@ There are 16 features in the data set, which have been renamed for readability:
       - Obesity_Level               
 
 
-## Methodology  Outline
+## Methodology Outline
 
 The following can be found in the **Notebooks** folder.
 
 ### 1. **Exploratory Data Analysis (EDA)** - see Obesity_estimation_eda.ipynb 
    - Examination of  **class distribution** and **age distribution**.
-   - Identification of **outliers** and check for **missing values**.
-   - Understanding the effect of specific features on obesity, such as **eating habits** and **activity levels**.
+   - Identification of **outliers** and  **missing values**.
+   - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**.
    - Analysis of **correlations** between variables.
 
 ### 2. **Data Cleaning** - see Obesity_estimation_eda.ipynb 
@@ -93,8 +93,8 @@ The following can be found in the **Notebooks** folder.
      - **Random Forest**
      - **KNeighbors**
      - **XGBoost**
-   - Evaluatation each model using metrics like **accuracy**, **precision**, **recall**, **F1 score**, and **log loss**.
-   - **Compare model performances** to select the best-performing model using GridSearch.
+   - Evaluation of each model using the following metrics: **accuracy**, **precision**, **recall**, and **F1 score**
+   - **Comparison of model performances** to select the best-performing model using **GridSearch**.
 
 ### 5. **Feature Engineering** - see Obesity_estimation_feature_eng_ML.ipynb
    - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
@@ -112,9 +112,13 @@ The following can be found in the **Notebooks** folder.
 
 ### Key Observations
 
-The correlation matrix findings show
 
 XGBoost was the highest performing model with Random Forest performing slightly behind it. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, a direct measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
+
+The **Confusion matrix** showed the following data were miscateorized by the XGboost model:
+      - 3 individuals with "Normal Weight' were categorized as 'Overweight Level 1"
+      - 1 individual with "Obesity Type 1" was categorized as "Overweight Type 2"
+      - 1 indivifusl with "Obesity Type 3" was categorized as "Obesity Type 2"
 
 The results from the SHAP analysis run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
@@ -127,7 +131,7 @@ The results from the SHAP analysis run on models excluding 'Height' and 'Weight'
       - Number of Meals (Num_Meals)
       - Family History of Obesity (Yes)
 
-Our analysis shows that these are the features of primary importance when assessing the risk of obesity. 
+Therefore these are the features of primary importance when assessing an indivuals risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
 
 ### Results
 
