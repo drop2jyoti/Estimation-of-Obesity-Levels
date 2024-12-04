@@ -21,18 +21,17 @@ The analysis could help in designing custom insurance policies or health premium
 
 ## Analysis Goals
 
-- **Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity** To create public awareness and highlight the key factors influencing obesity, we will use feature importance analysis. 
+- **Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity** To create public awareness and highlight the key factors influencing obesity, we use feature importance analysis. 
 
-- **Analyzing the Impact of Family History and Habits** This dataset includes features such as family history of being overweight and consumption patterns, which will be analyzed to study their impact on obesity levels.
+- **Analyzing the Impact of Family History and Habits** This dataset includes features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
 
-- **Predicting user engagement with technological devices** Determine how technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age groups. 
+- **Predicting user engagement with technological devices** Analyze how technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age groups. 
 
 
 ## Libraries and Frameworks
 
 This project will be performed using Python. For the library list please see the 'requirements.txt' file.
 
-## Methodology
 
 ## Dataset Information
 This dataset is **synthetic**, and all classes are balanced, so class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
@@ -68,10 +67,9 @@ There are 16 features in the data set, which have been renmaed for readability. 
       - Obesity_Level               
 
 
-#
-Outline
+## Methodology  Outline
 
-The following can be found in the Notebooks folder.
+The following can be found in the **Notebooks** folder.
 
 ### 1. **Exploratory Data Analysis (EDA)** - see Obesity_estimation_eda.ipynb 
    - Examination of  **class distribution** and **age distribution**.
