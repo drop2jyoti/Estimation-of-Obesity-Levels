@@ -11,7 +11,7 @@ contains 16 features and 2111 observations.
 | ------------------|-------------|
 | [**Arezoo Khalili**](https://github.com/Arezookhalili)| [Video link]() |
 | [**Jyoti Narang**](https://github.com/drop2jyoti) | [Video Link]() |
-| [**Kathryn Vozoris**](https://github.com/KathrynVozoris) | [Video link]()|
+| [**Kathryn Vozoris**](https://github.com/KathrynVozoris) | [Video Link]()|
 |  [**Zekiye Erdem**](https://github.com/zekiyerdem)|[Video Link](https://drive.google.com/drive/folders/1edbiriTnRMPIYdsnzrAsmYj4fHGTJP6n?usp=sharing)|
 
 
