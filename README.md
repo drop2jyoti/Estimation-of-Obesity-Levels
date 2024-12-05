@@ -55,26 +55,8 @@ The target variable, **Obesity Level**, represents obesity levels and includes *
 - Class 4: Obesity Type I
 - Class 5: Obesity Type II
 - Class 6: Obesity Type III
-
-There are 16 features in the data set, which have been renamed for readability:
-
-      - Gender                 
-      - Age                       
-      - Height                      
-      - Weight                       
-      - Family_History   (whether there is family history of obesity)          
-      - High_Cal_Foods_Frequently   (frequency of consumption of high calorie foods)  
-      - Freq_Veg  (number of servings of vegetables per day)              
-      - Num_Meals (number of main meals consumed per day)           
-      - Snacking  (frequency of snacking)            
-      - Smoke  (whether the individual is a smoker)                    
-      - Water_Intake  (amount of water consumed per day)            
-      - Calorie_Monitoring (whether calorie intake is being monitored)     
-      - Phys_Activity  (time spent doing physical activity per week)       
-      - Tech_Use  (time spent using technology per week)         
-      - Freq_Alcohol  (frequency of alcohol consumption)         
-      - Transportation  (type of transportaion most used: public, car, walking, motorbike, bike)        
-      - Obesity_Level               
+  
+For more information about dataset columns names please visit [here](data/README.md).
 
 
 ## Methodology Outline
