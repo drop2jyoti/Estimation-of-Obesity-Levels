@@ -133,10 +133,10 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
       XGBoost was the highest performing model with 96.1% accuracy and Random Forest performing slightly behind it with 93.7% accuracy, when run using all features. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, which is one measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
 
+The results from the **SHAP** <sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/notebooks/Appendix.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
-      The results from the **SHAP** <sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/notebooks/Appendix.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
-         - Age
+        - Age
          - Frequency of Vegetables (Freq_Veg)
          - Gender
          - Water Intake
