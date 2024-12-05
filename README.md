@@ -81,7 +81,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
       - Conclusions and summary of findings
 
    #### 4. Key Observations 
-      - We have highest number of people with Obesity_Type 1
+      - We have highest number of people with Obesity_Type 1.
       - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
       - More female are Obese as compared to male.
@@ -152,7 +152,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 ### Results
 
-   The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals, Family History (Yes).
+   The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals and Family History (Yes).
 
 
 ![Model Comparison Table](reports/image1.png)
