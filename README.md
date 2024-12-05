@@ -88,7 +88,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
       - We have highest number of people with Obesity_Type 1.
       - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-      - More female are Obese as compared to male (see (2) in Appendix)
+      - More female are Obese as compared to male.
       - We noticed a relatively strong positive correlation between the Weight and Height.
       - Outliers are present in Age.
 
@@ -166,7 +166,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a **Confusion Matrix**appendix<sup>[6]</sup>.  These misclassified labels could also be the subject of further investigation.
+Lastly, we considered miscategorized data using a **Confusion Matrix**<sup>[6]</sup>.  These misclassified labels could also be the subject of further investigation.
 
 #### Task Allocation
 
