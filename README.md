@@ -10,22 +10,19 @@ contains 16 features and 2111 observations.
 [**`Arezoo khalili`**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
 
-## Potential pplications for Results
+## Potential Applications for Results
 
-The results of this project could assist various organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications.
+The results of this project could assist various organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications. We use feature importance analysis to highlight the key factors influencing obesity.
 
-### 1. Public Health Organizations: 
+#### - Public Health Organizations: 
 By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
 
-### 2. Health Care Providers and Practitioners:  
+#### - Health Care Providers and Practitioners:  
 The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could aid in identifying at risk individuals who could then be offered interventions and support.  
 
-### 3. Insurance Companies
+#### - Insurance Companies
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
 
-## Analysis Goals
-
-- **Leveraging Feature Importance for Public Awareness on Key Factors to Combat Obesity** To create public awareness and highlight the key factors influencing obesity, we use feature importance analysis. 
 
 - **Analyzing the Impact of Family History and Habits** This dataset includes features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
 
