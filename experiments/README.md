@@ -37,3 +37,22 @@ The key variables (features) in this dataset, based on feature importance and re
 •	Transportation Mode (MTRANS): The mode of transportation, such as walking or using public transportation, reflects levels of physical activity in daily life.
 
 •	Outcome variable (NOBeyesdad): Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III. 
+
+#### After renaming the columns for better readability :
+  - Gender                 
+  - Age                       
+  - Height                      
+  - Weight                       
+  - Family_History   (whether there is family history of obesity)          
+  - High_Cal_Foods_Frequently   (frequency of consumption of high calorie foods)  
+  - Freq_Veg  (number of servings of vegetables per day)              
+  - Num_Meals (number of main meals consumed per day)           
+  - Snacking  (frequency of snacking)            
+  - Smoke  (whether the individual is a smoker)                    
+  - Water_Intake  (amount of water consumed per day)            
+  - Calorie_Monitoring (whether calorie intake is being monitored)     
+  - Phys_Activity  (time spent doing physical activity per week)       
+  - Tech_Use  (time spent using technology per week)         
+  - Freq_Alcohol  (frequency of alcohol consumption)         
+  - Transportation  (type of transportaion most used: public, car, walking, motorbike, bike)        
+  - Obesity_Level
