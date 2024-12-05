@@ -3,10 +3,10 @@
 
 ## Project Overview
 
-This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based On Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).  The dataset
+This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based On Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
 contains 16 features and 2111 observations.  
 
-### Team members 
+## Team members 
 [**Arezoo Khalili**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
 
@@ -14,17 +14,15 @@ contains 16 features and 2111 observations.
 
 The results of this project could assist organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications. We use feature importance analysis to highlight the key factors influencing obesity.
 
-#### - Public Health Organizations: 
+####  Public Health Organizations: 
 By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
 
-#### - Health Care Providers and Practitioners:  
+####  Health Care Providers and Practitioners:  
 The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could aid in identifying at risk individuals who could then be offered interventions and support.  
 
-#### - Insurance Companies
+####  Insurance Companies
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
 
-
-- 
 
 ## Libraries and Frameworks
 
