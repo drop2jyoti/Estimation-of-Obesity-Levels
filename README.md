@@ -204,4 +204,4 @@ Lastly, we considered miscategorized data using a **Confusion Matrix**.  These m
 ### Project 
 https://github.com/users/drop2jyoti/projects/2
 
-[Appendix]()
+[Appendix](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/edit/main/notebooks/Appendix)
