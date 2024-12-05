@@ -32,12 +32,15 @@ The analysis could help in designing custom insurance policies or health premium
 ## Libraries and Frameworks
 
 This project will be performed using Python and Python Libraries including: 
-      - Pandas
-      - Numpy
-      - MatPlotlib
-      - ScikitLearn
-      - Seaborn
-      - 
+      <ul>
+        <li>Pandas</li>
+        <li>Numpy</li>
+        <li>matplotlib</li>
+        <li>Scikit-Learn</li>
+        <li>Seaborn</li>
+        <li>XGBoost</li>
+        <li>Shap</li>
+      </ul>
 For more details please see the 'requirements.txt' file.
 
 ## Dataset Information
