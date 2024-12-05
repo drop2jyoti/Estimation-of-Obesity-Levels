@@ -63,23 +63,24 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 ### A.  [Exploratory Data Analysis](notebooks/Obesity_estimation_eda.ipynb)
 
+   #### 1. Data Exploration
       - Examination of  **class distribution** and **age distribution**
       - Identification of **outliers** and  **missing values**
       - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**
       - Analysis of **correlations** between variables
 
-   #### 1. **Data Cleaning**  
+   #### 2. **Data Cleaning**  
       Before modeling, we performed the following data cleaning steps:
       - **Removal of duplicates**
       - **Handling of outliers**
       - **Checking for missing values**
 
-   #### 2. Visualizations and Observations
+   #### 3. Visualizations and Observations
       - Box plots, scatter plots, bar plots, Histograms 
       - Correlation analysis
       - Conclusions and summary of findings
 
-   #### 3. Key Observations 
+   #### 4. Key Observations 
       - We have highest number of people with Obesity_Type 1
       - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
@@ -90,38 +91,38 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
-#### 1. **Preprocessing ** 
-   - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
-   - Scaling of numerical features using Standard Scaler.
-   - Label encoding of target variable.
+#### 1. **Preprocessing** 
+      - Preparation of **categorical variables** for machine learning using **one-hot encoding**
+      - Scaling of numerical features using Standard Scaler
+      - Label encoding of target variable
 
 
 #### 2. **Machine Learning Modeling**  
-   - Implementation of multiple classification algorithms:
-     - **Decision Tree**
-     - **Random Forest**
-     - **KNeighbors**
-     - **XGBoost**
-   - Evaluation of each model using the following metrics: **accuracy**, **precision**, **recall**, and **F1 score**
+      - Implementation of multiple classification algorithms:
+      - **Decision Tree**
+      - **Random Forest**
+      - **KNeighbors**
+      - **XGBoost**
+      - Evaluation of models using the metrics: **accuracy**, **precision**, **recall**, and **F1 score**
    
 
 #### 3. Hyperparameter Tuning
       - Tuning of hyperparameters on XGBoost and Random Forest models
-      - **Comparison of model performances** to select the best-performing model using **GridSearch**.
-      - Application of 5-fold cross-validation 
+      - ** Comparison of model performances** to select the best-performing model using **GridSearch**
+      - Application of  **5-fold cross-validation**
 
 #### 4. **Feature Engineering**
-      - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
-      - Utilization of a **correlation matrix** to gain insight for elimination of redundant features.
+      - **XGBoost, Random Forest** and **SHAP** to assess **feature importance**
+      - Utilization of **correlation matrix** insight to eliminate redundant features
 
 #### 5. **Feature Elimination and Model Comparison** 
-      - Reduction of the feature set based on **feature importance** and **correlations**.
-      - Comparison of performance of the models with a reduced feature set against the **baseline model**.
+      - Reduction of the feature set based on **feature importance** and **correlations**
+      - Comparison of performance of the models with a reduced feature set against the baseline model
 
 #### 6. **Findings and Conclusion**  
-      - Summarization of key findings from the **EDA** and **ML analysis**.
-      - Determine the influence of various features in predicting obesity levels.
-      - Recommendations for future research.
+      - Summarization of key findings from the **EDA** and **ML analysis**
+      - Determine the influence of various features in predicting obesity levels
+      - Recommendations for future research
 
 
 ### Key Observations
