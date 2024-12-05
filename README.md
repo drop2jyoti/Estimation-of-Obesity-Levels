@@ -81,25 +81,24 @@ All notebooks created for the Obestity Estimation Classification can be found [h
      - Correlation analysis
      - Conclusions and summary of findings
 
-   ### 3. Key Observations 
-
-   We have highest number of people with Obesity_Type I
-   On average most people have family history Suof obsesity.
-   Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-   More female are Obese as compared to male.
-   We noticed a relatively strong positive correlation between the Weight and Height.
-   Outliers are present in Age.
+   #### 3. Key Observations 
+         We have highest number of people with Obesity_Type I
+         On average most people have family history Suof obsesity.
+         Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
+         More female are Obese as compared to male.
+         We noticed a relatively strong positive correlation between the Weight and Height.
+         Outliers are present in Age.
 
 
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
-#### 1/. **Preprocessing ** 
+#### 1. **Preprocessing ** 
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
    - Scaling of numerical features using Standard Scaler.
    - Label encoding of target variable.
 
-#### 2.. **Machine Learning Modeling**  
+#### 2. **Machine Learning Modeling**  
    - Implementation of multiple classification algorithms:
      - **Decision Tree**
      - **Random Forest**
@@ -122,7 +121,7 @@ All notebooks created for the Obestity Estimation Classification can be found [h
    - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
 
-#### 5. **Findings and Conclusion**  
+#### 6. **Findings and Conclusion**  
    - Summarization of key findings from **EDA** and **ML analysis**.
    - Determine the influence of various features in predicting obesity levels.
    - Reccomendations for future research.
