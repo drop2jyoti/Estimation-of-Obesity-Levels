@@ -6,9 +6,13 @@
 This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based on Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
 contains 16 features and 2111 observations.  
 
-## Team members 
-
-[**Arezoo Khalili**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
+### Team members 
+| Team Member | Video Links |
+| ------------------|-------------|
+| [**Arezoo Khalili**](https://github.com/Arezookhalili)| [Video link]() |
+| [**Jyoti Narang**](https://github.com/drop2jyoti) | [Video Link]() |
+| [**Kathryn Vozoris**](https://github.com/KathrynVozoris) | [Video Link]()|
+|  [**Zekiye Erdem**](https://github.com/zekiyerdem)|[Video Link](https://drive.google.com/drive/folders/1edbiriTnRMPIYdsnzrAsmYj4fHGTJP6n?usp=sharing)|
 
 
 ## Potential Applications for Results
@@ -80,11 +84,11 @@ All notebooks created for the Obesity Estimation Classification can be found [he
       - Correlation analysis
       - Conclusions and summary of findings
 
-   #### 4. Key Observations 
+   #### 4. Key Observations <sup>[1-4]</sup>
       - We have highest number of people with Obesity_Type 1.
       - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-      - More female are Obese as compared to male.
+      - More female are Obese as compared to male (see (2) in Appendix)
       - We noticed a relatively strong positive correlation between the Weight and Height.
       - Outliers are present in Age.
 
@@ -130,7 +134,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
       XGBoost was the highest performing model with 96.1% accuracy and Random Forest performing slightly behind it with 93.7% accuracy, when run using all features. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, which is one measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
 
 
-      The results from the **SHAP** analysis run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
+      The results from the **SHAP** analysis<sup>[5]</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
          - Age
          - Frequency of Vegetables (Freq_Veg)
@@ -162,7 +166,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a **Confusion Matrix**.  These misclassified labels could also be a subject of further investigation.
+Lastly, we considered miscategorized data using a **Confusion Matrix**appendix<sup>[6]</sup>.  These misclassified labels could also be the subject of further investigation.
 
 #### Task Allocation
 
