@@ -84,7 +84,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
       - Correlation analysis
       - Conclusions and summary of findings
 
-   #### 4. Key Observations <sup>[1-4]</sup>
+   #### 4. Key Observations <sup>[1-4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/notebooks/Appendix.md)</sup>
       - We have highest number of people with Obesity_Type 1.
       - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
