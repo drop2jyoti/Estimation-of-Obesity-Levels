@@ -1,7 +1,7 @@
 ## 1. On average most people have family history of obesity.
 #
 
-![family history](image-8.png)
+[family history](image-8.png)
 
 
 ## 2. More female are obese as compared to male.
