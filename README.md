@@ -152,7 +152,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 ### Results
 
-   The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'. While models run on 'Selected Features' were run strictly on the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals, Family History (Yes).
+   The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals, Family History (Yes).
 
 
 ![Model Comparison Table](reports/image1.png)
