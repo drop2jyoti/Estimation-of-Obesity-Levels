@@ -7,12 +7,12 @@ This project applies machine learning techniques to predict obesity levels based
 contains 16 features and 2111 observations.  
 
 ### Team members 
-[**`Arezoo khalili`**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
+[**Arezoo Khalili**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
 
 ## Potential Applications for Results
 
-The results of this project could assist various organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications. We use feature importance analysis to highlight the key factors influencing obesity.
+The results of this project could assist organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications. We use feature importance analysis to highlight the key factors influencing obesity.
 
 #### - Public Health Organizations: 
 By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
