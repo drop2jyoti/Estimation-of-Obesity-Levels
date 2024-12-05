@@ -63,7 +63,7 @@ For more information about dataset columns names please visit [here](data/README
 
 The following can be found in the **Notebooks** folder.
 
-### A.  Exploratory Data Analysis
+### A.  [Exploratory Data Analysis](notebooks/Obesity_estimation_eda.ipynb)
 
       Examination of  **class distribution** and **age distribution**.
       Identification of **outliers** and  **missing values**.
@@ -92,7 +92,7 @@ The following can be found in the **Notebooks** folder.
 
 
 
-### B. Machine Learning Analysis:
+### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
 #### 1/. **Preprocessing ** 
    - Preparation of **categorical variables** for machine learning using **one-hot encoding**.
