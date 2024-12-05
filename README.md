@@ -24,10 +24,7 @@ The results could be used by health care professionals to monitor and manage obe
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
 
 
-- **Analyzing the Impact of Family History and Habits** This dataset includes features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
-
-- **Predicting user engagement with technological devices** Analyze how technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age groups. 
-
+- 
 
 ## Libraries and Frameworks
 
@@ -46,6 +43,9 @@ For more details please see the [requirements.txt](requirement.txt) file.
 ## Dataset Information
 This dataset is **synthetic**, and all classes are balanced, so class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
 
+The dataset contain 16 features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
+Additionally, we consider how and technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age groups. 
+
 The target variable, **Obesity Level**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
 
 - Class 0: Insufficient Weight
@@ -57,7 +57,6 @@ The target variable, **Obesity Level**, represents obesity levels and includes *
 - Class 6: Obesity Type III
   
 For more information about dataset columns names please visit [here](data/README.md).
-
 
 ## Methodology Outline
 
@@ -82,13 +81,12 @@ All notebooks created for the Obestity Estimation Classification can be found [h
      - Conclusions and summary of findings
 
    #### 3. Key Observations 
-         We have highest number of people with Obesity_Type I
-         On average most people have family history Suof obsesity.
-         Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-         More female are Obese as compared to male.
-         We noticed a relatively strong positive correlation between the Weight and Height.
-         Outliers are present in Age.
-
+      - We have highest number of people with Obesity_Type I
+      - On average most people have family history Suof obsesity.
+      - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
+      - More female are Obese as compared to male.
+      - We noticed a relatively strong positive correlation between the Weight and Height.
+      - Outliers are present in Age.
 
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
@@ -108,23 +106,22 @@ All notebooks created for the Obestity Estimation Classification can be found [h
    
 
 #### 3. Hyperparameter Tuning
-      - Tuning of hyperparamter tuning on XgBoost and Random Forest
+      - Tuning of hyperparamters on XgBoost and Random Forest models
       - **Comparison of model performances** to select the best-performing model using **GridSearch**.
-      - Applied 5 fold cross validation 
+      - Application of 5 fold cross validation 
 
 #### 4. **Feature Engineering**
-   - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
-   - Utilizatiion of  **correlation matrix** insight to eliminate redundant features.
+      - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
+      - Utilizatiion of a **correlation matrix** to gain insight for elimination of redundant features.
 
 #### 5. **Feature Elimination and Model Comparison** 
-   - Reduction of the feature set based on **feature importance** and **correlations**.
-   - Comparison of performance of the models with a reduced feature set against the **baseline model**.
-
+      - Reduction of the feature set based on **feature importance** and **correlations**.
+      - Comparison of performance of the models with a reduced feature set against the **baseline model**.
 
 #### 6. **Findings and Conclusion**  
-   - Summarization of key findings from **EDA** and **ML analysis**.
-   - Determine the influence of various features in predicting obesity levels.
-   - Reccomendations for future research.
+      - Summarization of key findings from the **EDA** and **ML analysis**.
+      - Determine the influence of various features in predicting obesity levels.
+      - Reccomendations for future research.
 
 
 ### Key Observations
@@ -150,7 +147,7 @@ For higher levels of obesity (Obesity levels 1, 2, and 3) the following features
       - Water Intake
       - Tech Use
 
-Therefore these are the features of primary importance when assessing an indivuals risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
+Therefore these are the features of primary importance when assessing an indivual's risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
 
 ### Results
 
@@ -162,7 +159,9 @@ The table below shows the performance results of the various models tested. Mode
  
 ### Future Scope and Next Steps
 
-XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. On future model applications ensure the inclusion of key features such as `Weight`, `Height`, `Age`, and `Freq_Veg`. Avoid removing these features unless computational or data collection constraints require it.  We considered the miscategorized data using a **Confusion matrix**.  These misclassified labels could also be further investigated.
+XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models had the highest performance when run using all features. Hence, on future model applications we reccomend the inclusion of key features such as `Weight`, `Height`, `Age`, and `Freq_Veg`. Avoid removing these features unless computational or data collection constraints require it.  
+
+Lastly, we considered miscategorized data using a **Confusion matrix**.  These misclassified labels could also be a subject of further investigation.
 
 #### Task Allocation
 
