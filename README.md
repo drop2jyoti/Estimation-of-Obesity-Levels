@@ -41,7 +41,7 @@ This project will be performed using Python and Python Libraries including:
         <li>XGBoost</li>
         <li>Shap</li>
       </ul>
-For more details please see the 'requirements.txt' file.
+For more details please see the [requirements.txt](requirement.txt) file.
 
 ## Dataset Information
 This dataset is **synthetic**, and all classes are balanced, so class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
