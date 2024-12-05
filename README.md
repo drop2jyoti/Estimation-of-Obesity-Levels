@@ -7,6 +7,7 @@ This project applies machine learning techniques to predict obesity levels based
 contains 16 features and 2111 observations.  
 
 ## Team members 
+
 [**Arezoo Khalili**](https://github.com/Arezookhalili), [**Jyoti Narang**](https://github.com/drop2jyoti) , [**Kathryn Vozoris**](https://github.com/KathrynVozoris), [**Zekiye Erdem**](https://github.com/zekiyerdem)
 
 
