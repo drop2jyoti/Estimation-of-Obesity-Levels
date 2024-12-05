@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based On Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
+This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based on Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
 contains 16 features and 2111 observations.  
 
 ## Team members 
@@ -12,13 +12,13 @@ contains 16 features and 2111 observations.
 
 ## Potential Applications for Results
 
-The results of this project could assist organizations in enhancing their decision-making processes. Below is a summary of key organizations and their potential applications. We use feature importance analysis to highlight the key factors influencing obesity.
+This project uses feature importance analysis to highlight the key factors influencing obesity.  The results found here could assist organizations in enhancing their decision-making processes. Below is a summary of such organizations and potential applications. 
 
 ####  Public Health Organizations: 
-By determining which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects. This would provide insight into what individuals should focus on to reduce their risk of obesity.  
+Given information on which features in the dataset are the greatest predictors of obesity levels, public health professionals could craft educational campaigns focusing on the most impactful aspects.  
 
 ####  Health Care Providers and Practitioners:  
-The results could be used by health care professionals to monitor and manage obesity. More specifically it could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could aid in identifying at risk individuals who could then be offered interventions and support.  
+The results could be used by health care professionals to monitor and manage obesity. More specifically they could be applied to help create a health recommendation system by leveraging the identified key variables related to lifestyle habits, dietary patterns, and physical conditions.  Such a system could aid in identifying at risk individuals who could then be offered interventions and support.  
 
 ####  Insurance Companies
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
@@ -30,19 +30,19 @@ This project will be performed using Python and Python Libraries including:
       <ul>
         <li>Pandas</li>
         <li>Numpy</li>
-        <li>matplotlib</li>
+        <li>Matplotlib</li>
         <li>Scikit-Learn</li>
-        <li>Seaborn</li>
+        <li>seaborn</li>
         <li>XGBoost</li>
-        <li>Shap</li>
+        <li>SHAP</li>
       </ul>
-For more details please see the [requirements.txt](requirement.txt) file.
+For more details, please see the [requirements.txt](requirement.txt) file.
 
 ## Dataset Information
 As this dataset is **synthetic** with all classes balanced, class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
 
-The dataset contain 16 features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
-Additionally, we consider how the feature technology usage (e.g. smartphone, TV, videogames, computers and other digital tools) correlates with obesity across various age groups. 
+The dataset contains 16 features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
+Additionally, we consider how physical activity, modes of transportation, calorie monitoring and technology usage correlate with obesity across various age groups. 
 
 The target variable, **Obesity Level**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
 
@@ -54,24 +54,24 @@ The target variable, **Obesity Level**, represents obesity levels and includes *
 - Class 5: Obesity Type II
 - Class 6: Obesity Type III
   
-For more information about dataset columns names please visit [here](data/README.md).
+For more information about the dataset columns names please visit [here](data/README.md).
 
 ## Methodology Outline
 
-All notebooks created for the Obestity Estimation Classification can be found [here](notebooks)
+All notebooks created for the Obesity Estimation Classification can be found [here](notebooks)
 
 ### A.  [Exploratory Data Analysis](notebooks/Obesity_estimation_eda.ipynb)
 
-      - Examination of  **class distribution** and **age distribution**.
-      - Identification of **outliers** and  **missing values**.
-      - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**.
-      - Analysis of **correlations** between variables.
+      - Examination of  **class distribution** and **age distribution**
+      - Identification of **outliers** and  **missing values**
+      - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**
+      - Analysis of **correlations** between variables
 
    #### 1. **Data Cleaning**  
-      - Before modeling, we performed the following data cleaning steps:
-      - **Removal of duplicates**.
-      - **Handling of outliers**.
-      - **Checking for missing values.**
+      Before modeling, we performed the following data cleaning steps:
+      - **Removal of duplicates**
+      - **Handling of outliers**
+      - **Checking for missing values**
 
    #### 2. Visualizations and Observations
       - Box plots, scatter plots, bar plots, Histograms 
@@ -79,8 +79,8 @@ All notebooks created for the Obestity Estimation Classification can be found [h
       - Conclusions and summary of findings
 
    #### 3. Key Observations 
-      - We have highest number of people with Obesity_Type I
-      - On average most people have family history Suof obsesity.
+      - We have highest number of people with Obesity_Type 1
+      - On average most people have family history of obesity.
       - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
       - More female are Obese as compared to male.
       - We noticed a relatively strong positive correlation between the Weight and Height.
@@ -105,13 +105,13 @@ All notebooks created for the Obestity Estimation Classification can be found [h
    
 
 #### 3. Hyperparameter Tuning
-      - Tuning of hyperparamters on XgBoost and Random Forest models
+      - Tuning of hyperparameters on XGBoost and Random Forest models
       - **Comparison of model performances** to select the best-performing model using **GridSearch**.
-      - Application of 5 fold cross validation 
+      - Application of 5-fold cross-validation 
 
 #### 4. **Feature Engineering**
       - We used **XGBoost, Random Forest** and **SHAP** to assess **feature importance**.
-      - Utilizatiion of a **correlation matrix** to gain insight for elimination of redundant features.
+      - Utilization of a **correlation matrix** to gain insight for elimination of redundant features.
 
 #### 5. **Feature Elimination and Model Comparison** 
       - Reduction of the feature set based on **feature importance** and **correlations**.
@@ -120,7 +120,7 @@ All notebooks created for the Obestity Estimation Classification can be found [h
 #### 6. **Findings and Conclusion**  
       - Summarization of key findings from the **EDA** and **ML analysis**.
       - Determine the influence of various features in predicting obesity levels.
-      - Reccomendations for future research.
+      - Recommendations for future research.
 
 
 ### Key Observations
@@ -146,11 +146,11 @@ For higher levels of obesity (Obesity levels 1, 2, and 3) the following features
       - Water Intake
       - Tech Use
 
-Therefore these are the features of primary importance when assessing an indivual's risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
+Therefore, these are the features of primary importance when assessing an individual's risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
 
 ### Results
 
-The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'. While models fun on 'Selected Features' were run strictly on the top 8 features indicated above: Age, Frequency of Vegetables (Freq_Veg), Gender, Water Intake, Physical Activity, Tech Use,Number of Meals (Num_Meals), Family History (Yes).
+The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'. While models run on 'Selected Features' were run strictly on the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals, Family History (Yes).
 
 
 ![Model Comparison Table](reports/image1.png)
@@ -158,9 +158,9 @@ The table below shows the performance results of the various models tested. Mode
  
 ### Future Scope and Next Steps
 
-XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we reccommend the inclusion of these key features, except in cases of computational or data collection constraints.  
+XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a **Confusion matrix**.  These misclassified labels could also be a subject of further investigation.
+Lastly, we considered miscategorized data using a **Confusion Matrix**.  These misclassified labels could also be a subject of further investigation.
 
 #### Task Allocation
 
@@ -174,9 +174,9 @@ Lastly, we considered miscategorized data using a **Confusion matrix**.  These m
    - **Support:** Zekiye
    - Tasks: Remove duplicates, handle outliers, and manage missing values as necessary.
 
-#### 3. **One-Hot Encoding for Categorical Variables**
+#### 3. **One-Hot Encoding for Categorical Variables and Scaling of numerical data**
    - **Lead:** Kathryn
-   - Tasks: Prepare categorical variables for machine learning through one-hot encoding.
+   - Tasks: Prepare categorical variables for machine learning through one-hot encoding. Consider scaling options for numerical data, and apply scaler.
 
 #### 4. **Machine Learning Modeling**
    - **Lead:** Zekiye
@@ -186,12 +186,12 @@ Lastly, we considered miscategorized data using a **Confusion matrix**.  These m
 #### 5. **Feature Engineering**
    - **Lead:** Zekiye
    - **Support:** Arezoo
-   - Tasks: Use Random Forest for feature importance assessment, and analyze correlation matrix to remove redundant features.
+   - Tasks: Use Random Forest for feature importance assessment and analyze correlation matrix to remove redundant features.
 
 #### 6. **Feature Elimination and Model Comparison**
    - **Lead:** Jyoti
    - **Support:** Kathryn
-   - Tasks: Perform feature elimination, and compare model performance with a reduced feature set vs. the baseline model.
+   - Tasks: Perform feature elimination and compare model performance with a reduced feature set vs. the baseline model.
 
 #### 7. **Findings and Conclusion**
    - **Lead:** Kathryn
