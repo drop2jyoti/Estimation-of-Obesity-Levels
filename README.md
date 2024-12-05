@@ -61,7 +61,7 @@ For more information about dataset columns names please visit [here](data/README
 
 ## Methodology Outline
 
-The following can be found in the **Notebooks** folder.
+All notebooks created for the Obestity Estimation Classification can be found [here](notebooks)
 
 ### A.  [Exploratory Data Analysis](notebooks/Obesity_estimation_eda.ipynb)
 
