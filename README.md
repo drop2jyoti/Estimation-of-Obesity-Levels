@@ -46,7 +46,7 @@ For more details, please see the [requirement.txt](requirement.txt) file.
 ## Dataset Information
 As this dataset is **synthetic** with all classes balanced, class imbalance is not an issue. **77% of the data** was generated synthetically using the **Weka tool** and the **SMOTE filter**, while **23% of the data** was collected directly from users through a web platform.
 
-The dataset contains 15 features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
+The dataset contains 16 features such as family history of being overweight and consumption patterns, which we analyze here to determine their impact on obesity levels.
 Additionally, we consider how physical activity, modes of transportation, calorie monitoring and technology usage correlate with obesity across various age groups. 
 
 The target variable, **Obesity Level**, represents obesity levels and includes **7 classes**, making this a **multi-class classification problem**. The classes are as follows:
