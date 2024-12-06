@@ -1,4 +1,4 @@
-## 1. We have highest number of people as obesity type I.
+## 1. We have highest number of people as Obesity Type I.
 
 
 ![Obesity distribution](https://github.com/user-attachments/assets/95345797-f4d4-40a7-93c2-060ed4caa992)
