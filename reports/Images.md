@@ -31,7 +31,7 @@
 ## 6. SHAP Analysis for XGBoost model run without the features 'Height' and 'Weight"
 
 
-#![SHAP](https://github.com/user-attachments/assets/c29f0b8e-7034-4f8c-b3c8-c8c009833ae6)
+![SHAP](https://github.com/user-attachments/assets/c29f0b8e-7034-4f8c-b3c8-c8c009833ae6)
 
 
 
