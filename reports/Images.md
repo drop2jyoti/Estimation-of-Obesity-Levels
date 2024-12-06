@@ -19,7 +19,7 @@
 ## 4. We noticed a relatively strong positive correlation between 'Weight' and 'Height'.
 
 
-#![Correlation Matrix](https://github.com/user-attachments/assets/e26b4691-e670-4dbc-bbd0-990c732c6ad4)
+![Correlation Matrix](https://github.com/user-attachments/assets/e26b4691-e670-4dbc-bbd0-990c732c6ad4)
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-## 6. Lastly, we considered miscategorized data using a **Confusion Matrix**
+## 7. Lastly, we considered miscategorized data using a **Confusion Matrix**
 
 
 ![Confusion Matrix](https://github.com/user-attachments/assets/3c33943f-fd14-4586-a9a1-6a2d48c4df23)
