@@ -4,7 +4,7 @@
 ## Project Overview
 
 This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based on Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
-contains 15 features, 1 target variable and 2111 observations.  
+contains 17 features and 2111 observations.  
 
 ### Team members 
 | Team Member | Video Links |
