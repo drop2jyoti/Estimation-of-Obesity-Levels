@@ -71,7 +71,7 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 - Examination of  **class distribution** and **age distribution**
 - Identification of **outliers** and  **missing values**
 - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**
--  - Analysis of **correlations** between variables
+- Analysis of **correlations** between variables
 
 #### 2. **Data Cleaning**  
 Before modeling, we performed the following data cleaning steps:
