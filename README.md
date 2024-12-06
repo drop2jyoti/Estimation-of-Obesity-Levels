@@ -110,7 +110,7 @@ Before modeling, we performed the following data cleaning steps:
    
 #### 3. Hyperparameter Tuning
 - Tuning of hyperparameters on XGBoost and Random Forest models
-- ** Comparison of model performances** to select the best-performing model using **GridSearch**
+- Comparison of model performances to select the best-performing model using **GridSearch**
 - Application of  **5-fold cross-validation**
 
 #### 4. **Feature Engineering**
