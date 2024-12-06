@@ -164,7 +164,7 @@ The table below shows the performance results of the various models tested. Mode
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a **Confusion Matrix**<sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
+Lastly, we considered miscategorized data using a Confusion Matrix<sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
 
 #### Task Allocation
 
