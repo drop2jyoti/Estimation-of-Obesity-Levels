@@ -35,5 +35,6 @@
 #
 ## 6. Lastly, we considered miscategorized data using a **Confusion Matrix**
 #
-#
-![Confusion Matrix](image-7.png)
+![Confusion Matrix](https://github.com/user-attachments/assets/7cd28ef3-3457-438e-a8f1-502570d9d2ca)
+
+
