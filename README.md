@@ -84,13 +84,13 @@ Before modeling, we performed the following data cleaning steps:
 - Correlation analysis
 - Conclusions and summary of findings
 
-#### 4. Key Observations <sup>[1-4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup>
-- Highest number of people categorized as obese are of Obesity_Type 1.
-- On average most people categorized as obese have family history of obesity.
+#### 4. Key Observations 
+- We have highest number of people with Obesity_Type 1. <sup>[1](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- On average most people categorized as obese have family history of obesity.<sup>[2](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
 - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-- More females are Obese as compared to males.
-- We noticed a relatively strong positive correlation between 'Weight' and 'Height'.
-- Outliers are present in 'Age'.
+- More females are Obese as compared to males.<sup>[3](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- We noticed a relatively strong positive correlation between 'Weight' and 'Height'.<sup>[4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- Outliers are present in 'Age'.<sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
@@ -131,7 +131,7 @@ Before modeling, we performed the following data cleaning steps:
 
 XGBoost was the highest performing model with 96.1% accuracy and Random Forest performing slightly behind it with 93.7% accuracy. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, which is one measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
 
-The results from the **SHAP** <sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
+The results from the **SHAP** <sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
 
 - Age
@@ -164,7 +164,7 @@ The table below shows the performance results of the various models tested. Mode
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a Confusion Matrix<sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
+Lastly, we considered miscategorized data using a Confusion Matrix<sup>[7](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
 
 #### Task Allocation
 
