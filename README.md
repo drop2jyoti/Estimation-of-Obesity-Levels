@@ -75,12 +75,12 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 #### 2. **Data Cleaning**  
 Before modeling, we performed the following data cleaning steps:
-- **Removal of duplicates**
-- **Handling of outliers**
-- **Checking for missing values**
+- Removal of **duplicates**
+- Handling of **outliers**
+- Checking for**missing values**
 
 #### 3. Visualizations and Observations
-- Box plots, scatter plots, bar plots, Histograms 
+- Box plots, scatter plots, bar plots, histograms 
 - Correlation analysis
 - Conclusions and summary of findings
 
