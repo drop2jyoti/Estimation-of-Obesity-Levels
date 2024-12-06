@@ -21,6 +21,9 @@
 #
 ![outliers](image-1.png)
 
+![outliers](https://github.com/user-attachments/assets/3fdbe520-826c-4075-b5c3-e334260876db)
+
+
 
 ## 5. SHAP Analysis for XGBoost model run without the features 'Height' and 'Weight"
 #
