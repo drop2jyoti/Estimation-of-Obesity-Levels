@@ -1,4 +1,4 @@
-## 1. Most people are categorized as Obesity 
+## 1. Most people are categorized as Obesity_Type_I
 #
 
 ![Obesity level distribution](https://github.com/user-attachments/assets/f3f3b965-7f3c-4946-8de3-846cd79ac00a)
