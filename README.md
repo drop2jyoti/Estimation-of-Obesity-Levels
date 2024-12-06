@@ -85,12 +85,12 @@ Before modeling, we performed the following data cleaning steps:
 - Conclusions and summary of findings
 
 #### 4. Key Observations <sup>[1-4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)</sup>
-- We have highest number of people with Obesity_Type 1.
-- On average most people have family history of obesity.
+- Highest number of people categorized as obese are of Obesity_Type 1.
+- On average most people categorized as obese have family history of obesity.
 - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-- More female are Obese as compared to male.
-- We noticed a relatively strong positive correlation between the Weight and Height.
-- Outliers are present in Age.
+- More females are Obese as compared to males.
+- We noticed a relatively strong positive correlation between 'Weight' and 'Height'.
+- Outliers are present in 'Age'.
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
