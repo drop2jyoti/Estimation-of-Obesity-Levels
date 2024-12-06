@@ -1,7 +1,8 @@
 ## 1. On average most people have family history of obesity.
 #
 
-![Family History of Obesity](https://github.com/user-attachments/assets/09e22282-d9d0-41af-b8fa-a96b170ecaec)
+![Family History](https://github.com/user-attachments/assets/5284a7e5-7508-4f91-b268-a1b0044b4d5e)
+
 
 
 
