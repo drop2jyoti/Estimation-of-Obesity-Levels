@@ -3,8 +3,10 @@
 
 ## 1. We have highest number of people with Obesity Type I.
 
+![Screenshot_6-12-2024_141151_github com](https://github.com/user-attachments/assets/d5a57a6f-fce0-4c4e-9f19-a2c3086e1ddd)
 
-![Obesity level distribution](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/ObesityLevel_distribution.png)
+
+
 
 
 ## 2. On average most people have family history of obesity.
