@@ -3,8 +3,8 @@
 
 ## Project Overview
 
-This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based on Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), which
-contains 16 features and 2111 observations.  
+This project applies machine learning techniques to predict obesity levels based on various factors (such as age, gender, height, and weight) and lifestyle habits (e.g. eating patterns, exercise, smoking, and water intake).  To do so we analyze the dataset titled  ["Estimation of Obesity Levels Based on Eating Habits and Physical Condition” ](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition), and consider its
+16 features, 1 target variable and 2111 observations.  
 
 ### Team members 
 | Team Member | Video Links |
@@ -27,7 +27,6 @@ The results could be used by health care professionals to monitor and manage obe
 
 ####  Insurance Companies
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
-
 
 ## Libraries and Frameworks
 
@@ -67,106 +66,102 @@ All notebooks created for the Obesity Estimation Classification can be found [he
 
 ### A.  [Exploratory Data Analysis](notebooks/Obesity_estimation_eda.ipynb)
 
-   #### 1. Data Exploration
-      - Examination of  **class distribution** and **age distribution**
-      - Identification of **outliers** and  **missing values**
-      - Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**
-      - Analysis of **correlations** between variables
+#### 1. Data Exploration
+- Examination of  **class distribution** and **age distribution**
+- Identification of **outliers** and  **missing values**
+- Examination of the effect of specific features on obesity, such as **eating habits** and **activity levels**
+- Analysis of **correlations** between variables
 
-   #### 2. **Data Cleaning**  
-      Before modeling, we performed the following data cleaning steps:
-      - **Removal of duplicates**
-      - **Handling of outliers**
-      - **Checking for missing values**
+#### 2. **Data Cleaning**  
+Before modeling, we performed the following data cleaning steps:
+- Removal of **duplicates**
+- Handling of **outliers**
+- Checking for**missing values**
 
-   #### 3. Visualizations and Observations
-      - Box plots, scatter plots, bar plots, Histograms 
-      - Correlation analysis
-      - Conclusions and summary of findings
+#### 3. Visualizations and Observations
+- Box plots, scatter plots, bar plots, histograms 
+- Correlation analysis
+- Conclusions and summary of findings
 
-   #### 4. Key Observations <sup>[1-4](/reports/Images.md)</sup>
-      - We have highest number of people with Obesity_Type 1.
-      - On average most people have family history of obesity.
-      - Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
-      - More female are Obese as compared to male.
-      - We noticed a relatively strong positive correlation between the Weight and Height.
-      - Outliers are present in Age.
-
+#### 4. Key Observations 
+- We have highest number of people with Obesity_Type 1. <sup>[1](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- On average most people have family history of obesity.<sup>[2](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)<sup>
+- Most people use some form of vehicles while only ~2.7% prefers walking/using bike That's concerning!
+- More females are Obese as compared to males.<sup>[3](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- We noticed a relatively strong positive correlation between 'Weight' and 'Height'.<sup>[4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
+- Outliers are present in Age.<sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)<sup>
 
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
 #### 1. **Preprocessing** 
-      - Preparation of **categorical variables** for machine learning using **one-hot encoding**
-      - Scaling of numerical features using Standard Scaler
-      - Label encoding of target variable
+- Preparation of **categorical variables** for machine learning using **one-hot encoding**
+- Scaling of numerical features using Standard Scaler
+- Label encoding of target variable
 
 
 #### 2. **Machine Learning Modeling**  
-      - Implementation of multiple classification algorithms:
-      - **Decision Tree**
-      - **Random Forest**
-      - **KNeighbors**
-      - **XGBoost**
-      - Evaluation of models using the metrics: **accuracy**, **precision**, **recall**, and **F1 score**
+- Implementation of multiple classification algorithms:
+- **Decision Tree**
+- **Random Forest**
+- **KNeighbors**
+- **XGBoost**
+- Evaluation of models using the metrics: **accuracy**, **precision**, **recall**, and **F1 score**
    
-
 #### 3. Hyperparameter Tuning
-      - Tuning of hyperparameters on XGBoost and Random Forest models
-      - ** Comparison of model performances** to select the best-performing model using **GridSearch**
-      - Application of  **5-fold cross-validation**
+- Tuning of hyperparameters on XGBoost and Random Forest models
+- Comparison of model performances to select the best-performing model using **GridSearch**
+- Application of  **5-fold cross-validation**
 
 #### 4. **Feature Engineering**
-      - **XGBoost, Random Forest** and **SHAP** to assess **feature importance**
-      - Utilization of **correlation matrix** insight to eliminate redundant features
+- **XGBoost, Random Forest** and **SHAP** to assess **feature importance**
+- Utilization of **correlation matrix** insight to eliminate redundant features
 
 #### 5. **Feature Elimination and Model Comparison** 
-      - Reduction of the feature set based on **feature importance** and **correlations**
-      - Comparison of performance of the models with a reduced feature set against the baseline model
+- Reduction of the feature set based on **feature importance** and **correlations**
+- Comparison of performance of the models with a reduced feature set against the baseline model
 
 #### 6. **Findings and Conclusion**  
-      - Summarization of key findings from the **EDA** and **ML analysis**
-      - Determine the influence of various features in predicting obesity levels
-      - Recommendations for future research
+- Summarization of key findings from the **EDA** and **ML analysis**
+- Determine the influence of various features in predicting obesity levels
+- Recommendations for future research
 
 
-   ### Key Observations
+### Key Observations
 
-      XGBoost was the highest performing model with 96.1% accuracy and Random Forest performing slightly behind it with 93.7% accuracy, when run using all features. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, which is one measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
+XGBoost was the highest performing model with 96.1% accuracy and Random Forest performing slightly behind it with 93.7% accuracy. Eliminating 'Height' and 'Weight' from the features to reduce bias (as these are used to calculate BMI, which is one measure of obesity) we saw only a slight drop in performance. This demonstrates the strength of the models in predicting obesity levels from the other features. A reduced feature set can be a viable option for faster inference and simpler deployment without substantial loss of accuracy.
 
-The results from the **SHAP** <sup>[5](/reports/Images.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
+The results from the **SHAP** <sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
+- Age
+- Frequency of Vegetables (Freq_Veg)
+- Gender
+- Water Intake
+- Physical Activity
+- Tech Use
+- Number of Meals (Num_Meals)
+ - Family History of Obesity (Yes)
 
-        - Age
-         - Frequency of Vegetables (Freq_Veg)
-         - Gender
-         - Water Intake
-         - Physical Activity
-         - Tech Use
-         - Number of Meals (Num_Meals)
-         - Family History of Obesity (Yes)
+For higher levels of obesity (Obesity levels I, II, and III) the following features are the main indicators in predicting obesity:
 
-      For higher levels of obesity (Obesity levels I, II, and III) the following features are the main indicators in predicting obesity:
+- Gender
+- Age
+- Water Intake
+- Tech Use
 
-         - Gender
-         - Age
-         - Water Intake
-         - Tech Use
-
-   Therefore, these are the features of primary importance when assessing an individual's risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
+Therefore, these are the features of primary importance when assessing an individual's risk of obesity. The features could be considered by institutions and public health departments looking to reduce obesity levels across populations.
 
 ### Results
 
-   The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals and Family History (Yes).
+The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals and Family History (Yes).
 
+![Model Comparison](https://github.com/user-attachments/assets/aa63819b-5b34-46d8-a177-13cf16565fc5)
 
-![Model Comparison Table](reports/image1.png)
-
- 
 ### Future Scope and Next Steps
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
-Lastly, we considered miscategorized data using a **Confusion Matrix**<sup>[6](/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
+Lastly, we considered miscategorized data using a Confusion Matrix<sup>[7](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
+
 
 #### Task Allocation
 
@@ -208,4 +203,6 @@ Lastly, we considered miscategorized data using a **Confusion Matrix**<sup>[6](/
 ### Project 
 https://github.com/users/drop2jyoti/projects/2
 
-[See Images here](/reports/Images.md)
+
+[See Images indexed here](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)
+
