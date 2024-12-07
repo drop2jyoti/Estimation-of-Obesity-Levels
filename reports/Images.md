@@ -1,12 +1,9 @@
-# Images Appendix for README.md
+## Images Appendix for README.md
 
 
 ## 1. We have highest number of people with Obesity Type I.
 
 ![Screenshot_6-12-2024_141151_github com](https://github.com/user-attachments/assets/d5a57a6f-fce0-4c4e-9f19-a2c3086e1ddd)
-
-
-
 
 
 ## 2. On average most people have family history of obesity.
