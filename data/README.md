@@ -28,7 +28,9 @@ The key variables (features) in this dataset, based on feature importance and re
 
 •	Water Intake (CH2O): Adequate water intake can aid in digestion and prevent overeating, indirectly influencing weight management.
 
-•	Calories Consumed (CALC): Regular or frequent alcohol consumption adds extra calories, contributing to weight gain.
+•	Alcohol Consumed (CALC): Regular or frequent alcohol consumption adds extra calories, contributing to weight gain.
+
+•	Calorie consumption monitoring (SCC): Regular or frequent calorie consumption contributes to weight gain.
 
 •	Physical Activity Frequency (FAF): Frequency of physical activity is a key factor in energy expenditure and weight control.
 

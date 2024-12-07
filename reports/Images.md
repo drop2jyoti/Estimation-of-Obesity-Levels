@@ -1,41 +1,40 @@
+# Images Appendix for README.md
+
+
 ## 1. We have highest number of people with Obesity Type I.
 
 
-![Obesity distribution](https://github.com/user-attachments/assets/95345797-f4d4-40a7-93c2-060ed4caa992)
+![Obesity level distribution](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/ObesityLevel_distribution.png)
 
 
 ## 2. On average most people have family history of obesity.
 
-
-![Family history of Obesity](https://github.com/user-attachments/assets/066f6f36-e370-4bea-a00f-b7e754fc285e)
+![Family History](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/Family_history_vs_Ob_level.png)
 
 
 ## 3. More female are obese as compared to male.
 
 
-![Obesity by Gender](https://github.com/user-attachments/assets/e9d152ee-3248-41e1-a019-ee8cfab3822d)
+![Gender vs Obesity](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/Gender_ob_level_distrubution.png)
 
 
 ## 4. We noticed a relatively strong positive correlation between 'Weight' and 'Height'.
 
 
-![Correlation Matrix](https://github.com/user-attachments/assets/e26b4691-e670-4dbc-bbd0-990c732c6ad4)
-
+![Correlation matrix](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/correlation_matrix_num_variables.png)
 
 
 ## 5. Outliers are present in Age.
 
-![Box Plot Age](https://github.com/user-attachments/assets/8aecb4df-ee2c-4b4f-be22-dac1fa34ef0e)
+![outliers in Age](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/Age_Box_plot_outlier.png)
 
 
 ## 6. SHAP Analysis for XGBoost model run without the features 'Height' and 'Weight"
 
-
-![SHAP](https://github.com/user-attachments/assets/c29f0b8e-7034-4f8c-b3c8-c8c009833ae6)
-
+![SHAP Image](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/SHAP.png)
 
 
 ## 7. Lastly, we considered miscategorized data using a **Confusion Matrix**
 
 
-![Confusion Matrix](https://github.com/user-attachments/assets/3c33943f-fd14-4586-a9a1-6a2d48c4df23)
+![Confusion Matrix](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/confusion_matrix.png)

@@ -9,8 +9,8 @@ This project applies machine learning techniques to predict obesity levels based
 ### Team members 
 | Team Member | Video Links |
 | ------------------|-------------|
-| [**Arezoo Khalili**](https://github.com/Arezookhalili)| [Video link]() |
-| [**Jyoti Narang**](https://github.com/drop2jyoti) | [Video Link]() |
+| [**Arezoo Khalili**](https://github.com/Arezookhalili)| [Video link](https://drive.google.com/file/d/1R9KJtClii35X0K13XacfvGpxG0r_dh9j/view?usp=drive_link) |
+| [**Jyoti Narang**](https://github.com/drop2jyoti) | [Video Link](https://drive.google.com/drive/folders/1kZ9L8xZUXKYOCRIFD6hSeOCnnMrqTmZb) |
 | [**Kathryn Vozoris**](https://github.com/KathrynVozoris) | [Video Link]()|
 |  [**Zekiye Erdem**](https://github.com/zekiyerdem)|[Video Link](https://drive.google.com/drive/folders/1edbiriTnRMPIYdsnzrAsmYj4fHGTJP6n?usp=sharing)|
 
@@ -27,7 +27,6 @@ The results could be used by health care professionals to monitor and manage obe
 
 ####  Insurance Companies
 The analysis could help in designing custom insurance policies or health premiums based on the identified obesity risks.
-
 
 ## Libraries and Frameworks
 
@@ -91,6 +90,7 @@ Before modeling, we performed the following data cleaning steps:
 - More females are Obese as compared to males.<sup>[3](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
 - We noticed a relatively strong positive correlation between 'Weight' and 'Height'.<sup>[4](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>
 - Outliers are present in Age.<sup>[5](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)<sup>
+
 ### B. [Machine Learning Analysis](notebooks/Obesity_estimation_feature_eng_ML.ipynb)
 
 #### 1. **Preprocessing** 
@@ -132,7 +132,6 @@ XGBoost was the highest performing model with 96.1% accuracy and Random Forest p
 
 The results from the **SHAP** <sup>[6](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup> run on models excluding 'Height' and 'Weight' showed the following features to be the top predictors of obesity levels:
 
-
 - Age
 - Frequency of Vegetables (Freq_Veg)
 - Gender
@@ -155,7 +154,6 @@ Therefore, these are the features of primary importance when assessing an indivi
 
 The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals and Family History (Yes).
 
-
 ![Model Comparison Table](reports/image1.png)
 
  
@@ -164,6 +162,7 @@ The table below shows the performance results of the various models tested. Mode
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
 
 Lastly, we considered miscategorized data using a Confusion Matrix<sup>[7](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)</sup>.  These misclassified labels could also be the subject of further investigation.
+
 
 #### Task Allocation
 
@@ -205,4 +204,6 @@ Lastly, we considered miscategorized data using a Confusion Matrix<sup>[7](https
 ### Project 
 https://github.com/users/drop2jyoti/projects/2
 
-[See Images indexed here](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/EDA_Kathryn/reports/Images.md)
+
+[See Images indexed here](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/blob/main/reports/Images.md)
+
