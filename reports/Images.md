@@ -28,8 +28,7 @@
 
 ## 5. Outliers are present in Age.
 
-![outliers in Age](https://github.com/drop2jyoti/Estimation-of-Obesity-Levels/raw/main/reports/image-src/Age_Box_plot_outlier.png)
-
+![Box Plot Age](https://github.com/user-attachments/assets/626ccec1-7179-4ecf-a125-e52f1ff6c820)
 
 ## 6. SHAP Analysis for XGBoost model run without the features 'Height' and 'Weight"
 
