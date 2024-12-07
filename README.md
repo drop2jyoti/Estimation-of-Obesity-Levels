@@ -154,8 +154,8 @@ Therefore, these are the features of primary importance when assessing an indivi
 
 The table below shows the performance results of the various models tested. Models run with the features 'Height' and 'Weight' eliminated are noted as '_EWH'.  Models run with 'Selected Features' were run using only the top 8 features indicated above: Age, Frequency of Vegetables, Gender, Water Intake, Physical Activity, Tech Use, Number of Meals and Family History (Yes).
 
-![Model Comparison](https://github.com/user-attachments/assets/6b67175d-6e76-43e3-9b5f-ee811c5dc381)
- 
+![Model Comparison](https://github.com/user-attachments/assets/aa63819b-5b34-46d8-a177-13cf16565fc5)
+
 ### Future Scope and Next Steps
 
 XGBoost is the most robust and reliable model for this dataset. It should be considered as the primary model for deployment or further analysis. Future experiments could include fine-tuning XGBoost hyperparameters and evaluating its performance on unseen test data or under real-world conditions. The models tested here performed best when run on all features. The features of highest importance were `Weight`, `Height`, `Age`, and `Freq_Veg`. Hence, in future model applications we recommend the inclusion of these key features, except in cases of computational or data collection constraints.  
